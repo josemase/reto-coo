@@ -1,17 +1,38 @@
 .App {
   text-align: center;
 }
-.custom-navbar {
-  display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
-  align-items: center; /* Alinea verticalmente los elementos al centro */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
-  background-color: #f8f9fa;
+
+h6 {
+  color: #0a6bb6 !important;
+  font-size:15px !important;
 }
 
+.custom-navbar {
+  display: flex; 
+  align-items: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #f8f9fa;
+}
+.me-2{
+
+  margin-left: 2%;
+  
+}
+#userName{
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size:15px !important;
+ 
+}
+
+.icons {
+  font-size:40px !important;
+  margin-right: 10px;
+  
+}
 .custom-image {
-  position: relative;
-  right: 1350px;
-  height: 30px; 
+  height: 20px;
+  margin-right: auto;
 }
 
 .App-logo {
